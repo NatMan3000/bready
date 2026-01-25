@@ -1,15 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
   <defs>
-    <linearGradient id="breadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#fde68a"/>
-      <stop offset="50%" style="stop-color:#fbbf24"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7"/>
+      <stop offset="100%" style="stop-color:#fde68a"/>
+    </linearGradient>
+    <linearGradient id="crust" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#92400e"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
       <stop offset="100%" style="stop-color:#d97706"/>
     </linearGradient>
   </defs>
-  <rect width="192" height="192" rx="24" fill="#fef3c7"/>
-  <ellipse cx="96" cy="105" rx="62" ry="48" fill="url(#breadGrad)"/>
-  <ellipse cx="96" cy="92" rx="54" ry="35" fill="#fde68a"/>
-  <ellipse cx="80" cy="86" rx="8" ry="6" fill="#fef3c7" opacity="0.6"/>
-  <ellipse cx="105" cy="82" rx="5" ry="4" fill="#fef3c7" opacity="0.5"/>
-  <path d="M55 105 Q70 85, 96 92 Q122 85, 137 105" stroke="#d97706" stroke-width="3" fill="none"/>
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <ellipse cx="96" cy="112" rx="58" ry="40" fill="url(#crust)"/>
+  <ellipse cx="96" cy="94" rx="53" ry="45" fill="url(#top)"/>
+  <path d="M52 82 Q70 70, 96 76" stroke="#92400e" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M96 76 Q122 70, 140 82" stroke="#92400e" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M58 102 Q96 90, 134 102" stroke="#92400e" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <ellipse cx="76" cy="68" rx="13" ry="8" fill="#fde68a" opacity="0.5"/>
 </svg>
