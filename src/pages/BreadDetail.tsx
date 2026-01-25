@@ -1,7 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { type Bread, CATEGORY_LABELS } from '../types'
-import { CategoryBackground } from '../creative/CategoryBackground'
 import breadsData from '../data/breads.json'
 import recipesData from '../data/recipes.json'
 
