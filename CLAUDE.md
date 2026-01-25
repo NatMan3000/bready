@@ -41,6 +41,17 @@ A visually rich Progressive Web App for browsing bread varieties and recipes. Pe
 
 ---
 
+## Deployment
+
+| Environment | URL |
+|-------------|-----|
+| **Production** | https://natman3000.github.io/bready/ |
+| **Repository** | https://github.com/NatMan3000/bready |
+
+Deployed via GitHub Actions on push to main.
+
+---
+
 ## Commands
 
 ```bash
@@ -69,6 +80,7 @@ src/
 | Date | Event |
 |------|-------|
 | 2026-01-25 | Project created, Phase 1 setup complete |
+| 2026-01-25 | Deployed to GitHub Pages, flour particles refined |
 
 ---
 
