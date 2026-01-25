@@ -8,7 +8,7 @@ import { RecipeDetail } from './pages/RecipeDetail'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/bready">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
