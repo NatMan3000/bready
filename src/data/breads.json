@@ -1,0 +1,212 @@
+[
+  {
+    "id": "sourdough-boule",
+    "name": "Sourdough Boule",
+    "category": "sourdough",
+    "origin": "San Francisco, USA",
+    "description": "A round loaf with a crispy, crackly crust and tangy, chewy interior. The long fermentation develops complex flavors and natural preservatives. San Francisco's unique wild yeasts give it a distinctive taste.",
+    "characteristics": {
+      "crust": "Thick, crispy, deeply caramelized",
+      "crumb": "Open, irregular holes with chewy texture",
+      "flavor": "Tangy, slightly sour, complex"
+    },
+    "difficulty": 4,
+    "funFact": "San Francisco sourdough gets its unique flavor from Lactobacillus sanfranciscensis, a bacteria found only in the Bay Area."
+  },
+  {
+    "id": "baguette",
+    "name": "French Baguette",
+    "category": "artisan",
+    "origin": "France",
+    "description": "The iconic long, thin loaf with a golden crust and soft, airy interior. French law dictates it can only contain flour, water, salt, and yeast. Best eaten within hours of baking.",
+    "characteristics": {
+      "crust": "Thin, golden, shattering crisp",
+      "crumb": "Light, airy with irregular holes",
+      "flavor": "Mild, wheaty, slightly nutty"
+    },
+    "difficulty": 4,
+    "funFact": "The baguette's shape was standardized in 1920 to make it easier for workers to break and share without a knife."
+  },
+  {
+    "id": "focaccia",
+    "name": "Focaccia",
+    "category": "flatbread",
+    "origin": "Genoa, Italy",
+    "description": "A dimpled Italian flatbread drizzled with olive oil and often topped with herbs, sea salt, or vegetables. The high hydration dough creates a light, airy texture with a crispy bottom.",
+    "characteristics": {
+      "crust": "Golden, crispy bottom, soft top",
+      "crumb": "Open, airy, slightly chewy",
+      "flavor": "Olive oil forward, herbaceous"
+    },
+    "difficulty": 2,
+    "funFact": "Focaccia predates the Roman Empire and was originally cooked on hot stones or ashes."
+  },
+  {
+    "id": "brioche",
+    "name": "Brioche",
+    "category": "enriched",
+    "origin": "Normandy, France",
+    "description": "A rich, buttery bread with a golden crown and pillowy soft interior. The high butter and egg content creates an almost cake-like texture. Perfect for French toast or eaten plain.",
+    "characteristics": {
+      "crust": "Thin, golden, slightly sweet",
+      "crumb": "Fine, tender, cotton-soft",
+      "flavor": "Buttery, rich, subtly sweet"
+    },
+    "difficulty": 3,
+    "funFact": "Marie Antoinette's famous 'Let them eat cake' was likely a mistranslation of 'brioche'."
+  },
+  {
+    "id": "banana-bread",
+    "name": "Banana Bread",
+    "category": "quick",
+    "origin": "United States",
+    "description": "A moist, sweet loaf made with overripe bananas. No yeast required - baking soda provides the lift. Often studded with walnuts or chocolate chips. The ultimate comfort bread.",
+    "characteristics": {
+      "crust": "Thin, slightly crackled top",
+      "crumb": "Dense, moist, tender",
+      "flavor": "Sweet banana, caramelized edges"
+    },
+    "difficulty": 1,
+    "funFact": "Banana bread became popular during the Great Depression when resourceful cooks refused to waste overripe bananas."
+  },
+  {
+    "id": "ciabatta",
+    "name": "Ciabatta",
+    "category": "artisan",
+    "origin": "Veneto, Italy",
+    "description": "An Italian slipper-shaped bread with a crispy crust and extremely open crumb. The wet dough creates large, irregular holes perfect for soaking up olive oil or sandwich fillings.",
+    "characteristics": {
+      "crust": "Thin, crispy, flour-dusted",
+      "crumb": "Very open, large holes, chewy",
+      "flavor": "Mild, slightly yeasty"
+    },
+    "difficulty": 3,
+    "funFact": "Ciabatta was only invented in 1982 by a baker trying to compete with French baguettes."
+  },
+  {
+    "id": "naan",
+    "name": "Naan",
+    "category": "flatbread",
+    "origin": "India",
+    "description": "A soft, pillowy flatbread traditionally cooked in a tandoor oven. The yogurt in the dough creates tenderness, while the high heat produces characteristic charred spots. Often brushed with ghee.",
+    "characteristics": {
+      "crust": "Soft with charred bubbles",
+      "crumb": "Fluffy, layered, tender",
+      "flavor": "Slightly tangy, buttery"
+    },
+    "difficulty": 2,
+    "funFact": "Naan was once a royal food in the Mughal court, too luxurious for common people."
+  },
+  {
+    "id": "challah",
+    "name": "Challah",
+    "category": "enriched",
+    "origin": "Jewish tradition",
+    "description": "A beautiful braided bread enriched with eggs, giving it a golden color and tender crumb. Traditional for Shabbat and holidays. The braids can have 3 to 12 strands.",
+    "characteristics": {
+      "crust": "Shiny, golden, soft",
+      "crumb": "Fluffy, slightly sweet, pull-apart",
+      "flavor": "Eggy, subtly sweet, rich"
+    },
+    "difficulty": 3,
+    "funFact": "The braids in challah are said to represent love, truth, and justice intertwined."
+  },
+  {
+    "id": "pita",
+    "name": "Pita Bread",
+    "category": "flatbread",
+    "origin": "Middle East",
+    "description": "A round pocket bread that puffs up dramatically in the oven, creating a natural pocket. The steam inside separates the layers. Perfect for stuffing with falafel or dipping in hummus.",
+    "characteristics": {
+      "crust": "Soft, flexible, lightly browned",
+      "crumb": "Two distinct layers, slight chew",
+      "flavor": "Mild, wheaty, versatile"
+    },
+    "difficulty": 2,
+    "funFact": "Pita is one of the oldest breads, with evidence dating back 14,000 years in Jordan."
+  },
+  {
+    "id": "sourdough-rye",
+    "name": "Dark Rye Sourdough",
+    "category": "sourdough",
+    "origin": "Northern Europe",
+    "description": "A dense, earthy bread made with rye flour and sourdough starter. The natural acids in sourdough are essential for rye bread structure. Often flavored with caraway seeds.",
+    "characteristics": {
+      "crust": "Dark, firm, sometimes seeded",
+      "crumb": "Dense, moist, tight",
+      "flavor": "Earthy, malty, slightly sour"
+    },
+    "difficulty": 4,
+    "funFact": "In medieval times, rye bread was called 'black bread' and was the staple of peasants."
+  },
+  {
+    "id": "cornbread",
+    "name": "Southern Cornbread",
+    "category": "quick",
+    "origin": "Southern United States",
+    "description": "A quick bread made with cornmeal, baked in a cast iron skillet for a crispy crust. Southern versions are typically unsweetened and savory. The hot pan creates an irresistible golden bottom.",
+    "characteristics": {
+      "crust": "Crispy, golden bottom",
+      "crumb": "Crumbly, slightly gritty, moist",
+      "flavor": "Corn-forward, buttery, savory"
+    },
+    "difficulty": 1,
+    "funFact": "The debate over sugar in cornbread divides the American South like nothing else."
+  },
+  {
+    "id": "pretzel",
+    "name": "Soft Pretzel",
+    "category": "artisan",
+    "origin": "Germany",
+    "description": "A twisted bread with a dark, glossy crust achieved by dipping in lye solution before baking. The distinctive flavor comes from the Maillard reaction with the alkaline surface.",
+    "characteristics": {
+      "crust": "Dark brown, chewy, salted",
+      "crumb": "Soft, dense, slightly chewy",
+      "flavor": "Malty, savory, distinctive"
+    },
+    "difficulty": 3,
+    "funFact": "The pretzel shape may represent arms crossed in prayer, created by medieval monks."
+  },
+  {
+    "id": "english-muffin",
+    "name": "English Muffin",
+    "category": "artisan",
+    "origin": "England",
+    "description": "A round, flat bread cooked on a griddle rather than baked. Famous for its 'nooks and crannies' that appear when split with a fork. Essential for Eggs Benedict.",
+    "characteristics": {
+      "crust": "Cornmeal-dusted, griddled",
+      "crumb": "Holey, spongy, light",
+      "flavor": "Mild, slightly tangy"
+    },
+    "difficulty": 2,
+    "funFact": "English muffins are actually more popular in America than in England, where they're called 'muffins.'"
+  },
+  {
+    "id": "pain-de-mie",
+    "name": "Pain de Mie",
+    "category": "enriched",
+    "origin": "France",
+    "description": "A fine-crumbed sandwich bread baked in a lidded pan for perfectly square slices. The enriched dough creates a tender, uniform texture ideal for sandwiches and French toast.",
+    "characteristics": {
+      "crust": "Thin, soft, minimal",
+      "crumb": "Fine, uniform, tender",
+      "flavor": "Mildly sweet, buttery"
+    },
+    "difficulty": 2,
+    "funFact": "The lidded pan (Pullman pan) was named after the Pullman train cars where this bread was served."
+  },
+  {
+    "id": "soda-bread",
+    "name": "Irish Soda Bread",
+    "category": "quick",
+    "origin": "Ireland",
+    "description": "A rustic quick bread leavened with baking soda and buttermilk. The acidic buttermilk reacts with the soda to create rise. Traditionally marked with a cross on top.",
+    "characteristics": {
+      "crust": "Crusty, rustic, crackled",
+      "crumb": "Dense, tender, slightly crumbly",
+      "flavor": "Tangy, wheaty, homey"
+    },
+    "difficulty": 1,
+    "funFact": "The cross on soda bread was originally meant to ward off evil spirits and let the fairies out."
+  }
+]

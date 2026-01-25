@@ -1,0 +1,420 @@
+[
+  {
+    "id": "focaccia-recipe",
+    "breadId": "focaccia",
+    "name": "Classic Rosemary Focaccia",
+    "prepTime": 20,
+    "proofTime": 120,
+    "bakeTime": 25,
+    "servings": 8,
+    "ingredients": [
+      { "name": "Bread flour", "amount": "500", "unit": "g" },
+      { "name": "Warm water", "amount": "375", "unit": "ml", "notes": "About 38°C" },
+      { "name": "Instant yeast", "amount": "7", "unit": "g" },
+      { "name": "Salt", "amount": "10", "unit": "g" },
+      { "name": "Olive oil", "amount": "60", "unit": "ml", "notes": "Plus more for drizzling" },
+      { "name": "Fresh rosemary", "amount": "2", "unit": "tbsp" },
+      { "name": "Flaky sea salt", "amount": "1", "unit": "tsp" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Mix flour, yeast, and salt in a large bowl. Add warm water and 2 tablespoons olive oil.", "icon": "mix", "duration": 5 },
+      { "order": 2, "instruction": "Stir until a shaggy dough forms. Cover and let rest for 10 minutes.", "icon": "proof", "duration": 10 },
+      { "order": 3, "instruction": "With wet hands, fold the dough over itself 4 times, rotating the bowl. Cover and rest 30 minutes. Repeat this fold 2 more times.", "icon": "knead", "duration": 90 },
+      { "order": 4, "instruction": "Pour 2 tablespoons olive oil into a 9x13 inch baking pan. Transfer dough to pan, turn to coat in oil.", "icon": "shape" },
+      { "order": 5, "instruction": "Cover and let rise until doubled and bubbly, about 1 hour.", "icon": "proof", "duration": 60 },
+      { "order": 6, "instruction": "Preheat oven to 220°C (425°F). Oil your fingers and press them into the dough to create dimples all over.", "icon": "shape" },
+      { "order": 7, "instruction": "Drizzle generously with olive oil. Scatter rosemary and flaky salt over the top.", "icon": "mix" },
+      { "order": 8, "instruction": "Bake until golden brown, 20-25 minutes. Let cool slightly before slicing.", "icon": "bake", "duration": 25 }
+    ],
+    "tips": [
+      "Use the best olive oil you have - you'll taste it",
+      "Don't skip the dimpling - it creates pockets for the oil",
+      "The dough should be very wet and sticky - that's correct",
+      "For extra flavor, infuse the oil with garlic before drizzling"
+    ]
+  },
+  {
+    "id": "banana-bread-recipe",
+    "breadId": "banana-bread",
+    "name": "Best Banana Bread",
+    "prepTime": 15,
+    "proofTime": 0,
+    "bakeTime": 60,
+    "servings": 10,
+    "ingredients": [
+      { "name": "Very ripe bananas", "amount": "3", "unit": "large", "notes": "The blacker the better" },
+      { "name": "Butter, melted", "amount": "115", "unit": "g" },
+      { "name": "Brown sugar", "amount": "150", "unit": "g" },
+      { "name": "Egg", "amount": "1", "unit": "large" },
+      { "name": "Vanilla extract", "amount": "1", "unit": "tsp" },
+      { "name": "All-purpose flour", "amount": "190", "unit": "g" },
+      { "name": "Baking soda", "amount": "1", "unit": "tsp" },
+      { "name": "Salt", "amount": "0.5", "unit": "tsp" },
+      { "name": "Walnuts, chopped", "amount": "75", "unit": "g", "notes": "Optional" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Preheat oven to 175°C (350°F). Grease a 9x5 inch loaf pan.", "icon": "bake" },
+      { "order": 2, "instruction": "Mash bananas in a large bowl until mostly smooth with some chunks remaining.", "icon": "mix", "duration": 2 },
+      { "order": 3, "instruction": "Stir in melted butter, then mix in brown sugar, egg, and vanilla.", "icon": "mix", "duration": 3 },
+      { "order": 4, "instruction": "Sprinkle flour, baking soda, and salt over the wet mixture. Fold gently until just combined - don't overmix!", "icon": "mix", "duration": 2 },
+      { "order": 5, "instruction": "Fold in walnuts if using. Pour batter into prepared pan.", "icon": "shape" },
+      { "order": 6, "instruction": "Bake for 55-65 minutes until a toothpick comes out clean. The top should be golden and cracked.", "icon": "bake", "duration": 60 },
+      { "order": 7, "instruction": "Let cool in pan for 10 minutes, then turn out onto a wire rack.", "icon": "cool", "duration": 10 }
+    ],
+    "tips": [
+      "Freeze overripe bananas for later - they're perfect for this",
+      "A crack on top is normal and desirable",
+      "Add chocolate chips for a sweeter version",
+      "Wrapping in foil keeps it moist for days"
+    ]
+  },
+  {
+    "id": "naan-recipe",
+    "breadId": "naan",
+    "name": "Garlic Butter Naan",
+    "prepTime": 20,
+    "proofTime": 60,
+    "bakeTime": 3,
+    "servings": 8,
+    "ingredients": [
+      { "name": "All-purpose flour", "amount": "300", "unit": "g" },
+      { "name": "Plain yogurt", "amount": "120", "unit": "g" },
+      { "name": "Warm milk", "amount": "60", "unit": "ml" },
+      { "name": "Instant yeast", "amount": "5", "unit": "g" },
+      { "name": "Sugar", "amount": "1", "unit": "tsp" },
+      { "name": "Salt", "amount": "1", "unit": "tsp" },
+      { "name": "Baking powder", "amount": "0.5", "unit": "tsp" },
+      { "name": "Oil", "amount": "2", "unit": "tbsp" },
+      { "name": "Butter, melted", "amount": "60", "unit": "g", "notes": "For brushing" },
+      { "name": "Garlic, minced", "amount": "3", "unit": "cloves" },
+      { "name": "Fresh cilantro", "amount": "2", "unit": "tbsp", "notes": "Chopped" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Mix warm milk, sugar, and yeast. Let sit until foamy, about 5 minutes.", "icon": "mix", "duration": 5 },
+      { "order": 2, "instruction": "Combine flour, salt, and baking powder. Add yogurt, oil, and yeast mixture. Mix to form a soft dough.", "icon": "mix", "duration": 5 },
+      { "order": 3, "instruction": "Knead for 5 minutes until smooth and elastic. The dough should be soft but not sticky.", "icon": "knead", "duration": 5 },
+      { "order": 4, "instruction": "Cover and let rise in a warm place for 1 hour until doubled.", "icon": "proof", "duration": 60 },
+      { "order": 5, "instruction": "Mix melted butter with minced garlic. Set aside.", "icon": "mix" },
+      { "order": 6, "instruction": "Divide dough into 8 pieces. Roll each into an oval about 5mm thick.", "icon": "shape", "duration": 10 },
+      { "order": 7, "instruction": "Heat a cast iron skillet over high heat. Cook naan for 1-2 minutes per side until puffed and charred in spots.", "icon": "bake", "duration": 3 },
+      { "order": 8, "instruction": "Brush hot naan with garlic butter and sprinkle with cilantro. Serve immediately.", "icon": "cool" }
+    ],
+    "tips": [
+      "High heat is key - the pan should be almost smoking",
+      "Don't roll too thin or it won't puff",
+      "Cover cooked naan with a towel to keep warm",
+      "No cast iron? Use the highest broiler setting in your oven"
+    ]
+  },
+  {
+    "id": "challah-recipe",
+    "breadId": "challah",
+    "name": "Traditional Challah",
+    "prepTime": 30,
+    "proofTime": 150,
+    "bakeTime": 35,
+    "servings": 12,
+    "ingredients": [
+      { "name": "Bread flour", "amount": "500", "unit": "g" },
+      { "name": "Warm water", "amount": "180", "unit": "ml" },
+      { "name": "Instant yeast", "amount": "7", "unit": "g" },
+      { "name": "Eggs", "amount": "3", "unit": "large", "notes": "Plus 1 for egg wash" },
+      { "name": "Honey", "amount": "80", "unit": "g" },
+      { "name": "Vegetable oil", "amount": "60", "unit": "ml" },
+      { "name": "Salt", "amount": "8", "unit": "g" },
+      { "name": "Sesame seeds", "amount": "2", "unit": "tbsp", "notes": "Optional topping" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Dissolve yeast in warm water with a pinch of honey. Let bloom for 5 minutes.", "icon": "mix", "duration": 5 },
+      { "order": 2, "instruction": "Whisk together eggs, remaining honey, oil, and salt in a large bowl.", "icon": "mix", "duration": 3 },
+      { "order": 3, "instruction": "Add yeast mixture and half the flour. Stir until smooth. Gradually add remaining flour.", "icon": "mix", "duration": 5 },
+      { "order": 4, "instruction": "Knead for 10 minutes until smooth, elastic, and slightly tacky. The dough should pass the windowpane test.", "icon": "knead", "duration": 10 },
+      { "order": 5, "instruction": "Place in an oiled bowl, cover, and let rise until doubled, about 1.5 hours.", "icon": "proof", "duration": 90 },
+      { "order": 6, "instruction": "Punch down and divide into 3 equal pieces. Roll each into a 40cm rope.", "icon": "shape", "duration": 10 },
+      { "order": 7, "instruction": "Braid the three ropes together, pinching ends and tucking under. Place on a lined baking sheet.", "icon": "shape", "duration": 5 },
+      { "order": 8, "instruction": "Cover and let rise for 45 minutes until puffy.", "icon": "proof", "duration": 45 },
+      { "order": 9, "instruction": "Preheat oven to 175°C (350°F). Beat remaining egg and brush over challah. Sprinkle with sesame seeds.", "icon": "bake" },
+      { "order": 10, "instruction": "Bake for 30-35 minutes until deep golden and hollow-sounding when tapped.", "icon": "bake", "duration": 35 }
+    ],
+    "tips": [
+      "For a shiny crust, apply two coats of egg wash",
+      "Braid loosely - the dough will expand",
+      "This bread freezes beautifully",
+      "Try a 6-strand braid for special occasions"
+    ]
+  },
+  {
+    "id": "soda-bread-recipe",
+    "breadId": "soda-bread",
+    "name": "Irish Soda Bread",
+    "prepTime": 10,
+    "proofTime": 0,
+    "bakeTime": 45,
+    "servings": 8,
+    "ingredients": [
+      { "name": "All-purpose flour", "amount": "450", "unit": "g" },
+      { "name": "Buttermilk", "amount": "400", "unit": "ml" },
+      { "name": "Baking soda", "amount": "1", "unit": "tsp" },
+      { "name": "Salt", "amount": "1", "unit": "tsp" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Preheat oven to 220°C (425°F). Line a baking sheet with parchment.", "icon": "bake" },
+      { "order": 2, "instruction": "Whisk flour, baking soda, and salt in a large bowl.", "icon": "mix", "duration": 2 },
+      { "order": 3, "instruction": "Make a well in the center. Pour in buttermilk.", "icon": "mix" },
+      { "order": 4, "instruction": "Using a fork, quickly mix from the center outward until a shaggy dough forms. Don't overwork!", "icon": "mix", "duration": 2 },
+      { "order": 5, "instruction": "Turn out onto a floured surface. Gently shape into a round about 5cm thick.", "icon": "shape", "duration": 2 },
+      { "order": 6, "instruction": "Place on baking sheet. Cut a deep cross on top, going almost to the edges.", "icon": "shape" },
+      { "order": 7, "instruction": "Bake for 15 minutes at 220°C, then reduce to 200°C (400°F) and bake 25-30 more minutes.", "icon": "bake", "duration": 45 },
+      { "order": 8, "instruction": "The bread is done when it sounds hollow when tapped on the bottom. Cool on a wire rack.", "icon": "cool", "duration": 10 }
+    ],
+    "tips": [
+      "No buttermilk? Add 1 tbsp lemon juice to regular milk",
+      "Work quickly - the soda starts reacting immediately",
+      "Best eaten the day it's baked",
+      "Add raisins and caraway seeds for a sweeter version"
+    ]
+  },
+  {
+    "id": "ciabatta-recipe",
+    "breadId": "ciabatta",
+    "name": "Rustic Ciabatta",
+    "prepTime": 20,
+    "proofTime": 240,
+    "bakeTime": 25,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Bread flour", "amount": "400", "unit": "g" },
+      { "name": "Water", "amount": "340", "unit": "ml", "notes": "Room temperature" },
+      { "name": "Instant yeast", "amount": "5", "unit": "g" },
+      { "name": "Salt", "amount": "10", "unit": "g" },
+      { "name": "Olive oil", "amount": "1", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Mix flour, yeast, and water until combined. Cover and rest for 20 minutes (autolyse).", "icon": "mix", "duration": 20 },
+      { "order": 2, "instruction": "Add salt and olive oil. Squeeze dough through your fingers to incorporate. The dough will be very wet.", "icon": "knead", "duration": 5 },
+      { "order": 3, "instruction": "Every 30 minutes for 2 hours, fold the dough: stretch one side up and fold over, rotate, repeat 4 times.", "icon": "knead", "duration": 120 },
+      { "order": 4, "instruction": "Cover and refrigerate overnight, or let rise at room temperature for 2 more hours.", "icon": "proof", "duration": 120 },
+      { "order": 5, "instruction": "Generously flour a work surface. Gently turn out dough, trying not to deflate it.", "icon": "shape" },
+      { "order": 6, "instruction": "Divide in half. Gently stretch each piece into a rough rectangle. Don't worry about perfection!", "icon": "shape", "duration": 5 },
+      { "order": 7, "instruction": "Transfer to floured towels. Cover and proof for 45 minutes.", "icon": "proof", "duration": 45 },
+      { "order": 8, "instruction": "Preheat oven to 230°C (450°F) with a baking stone or inverted sheet pan.", "icon": "bake" },
+      { "order": 9, "instruction": "Flip loaves onto hot stone. Bake 20-25 minutes until deeply golden.", "icon": "bake", "duration": 25 }
+    ],
+    "tips": [
+      "This dough is supposed to be wet and messy - embrace it",
+      "Handle the dough gently to preserve the air bubbles",
+      "A cold overnight rise develops more flavor",
+      "Spray oven with water at the start for a crispier crust"
+    ]
+  },
+  {
+    "id": "brioche-recipe",
+    "breadId": "brioche",
+    "name": "Classic French Brioche",
+    "prepTime": 30,
+    "proofTime": 180,
+    "bakeTime": 25,
+    "servings": 12,
+    "ingredients": [
+      { "name": "Bread flour", "amount": "500", "unit": "g" },
+      { "name": "Eggs", "amount": "5", "unit": "large", "notes": "Room temperature" },
+      { "name": "Sugar", "amount": "50", "unit": "g" },
+      { "name": "Salt", "amount": "10", "unit": "g" },
+      { "name": "Instant yeast", "amount": "7", "unit": "g" },
+      { "name": "Butter, softened", "amount": "225", "unit": "g", "notes": "Cut into cubes" },
+      { "name": "Milk", "amount": "60", "unit": "ml", "notes": "Warm" },
+      { "name": "Egg yolk", "amount": "1", "unit": "large", "notes": "For egg wash" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "In a stand mixer with dough hook, combine flour, sugar, salt, and yeast.", "icon": "mix", "duration": 2 },
+      { "order": 2, "instruction": "Add eggs one at a time, mixing well after each. Add warm milk.", "icon": "mix", "duration": 5 },
+      { "order": 3, "instruction": "Knead on medium speed for 10 minutes until dough is smooth and pulls away from sides.", "icon": "knead", "duration": 10 },
+      { "order": 4, "instruction": "With mixer running, add butter one cube at a time. Knead until fully incorporated and dough is glossy.", "icon": "knead", "duration": 10 },
+      { "order": 5, "instruction": "Cover bowl and refrigerate for at least 2 hours or overnight. Cold dough is easier to shape.", "icon": "proof", "duration": 120 },
+      { "order": 6, "instruction": "Divide dough into 12 pieces. Roll each into a ball and place in greased muffin tin or brioche molds.", "icon": "shape", "duration": 10 },
+      { "order": 7, "instruction": "Cover and let rise at room temperature for 1 hour until doubled.", "icon": "proof", "duration": 60 },
+      { "order": 8, "instruction": "Preheat oven to 190°C (375°F). Brush tops with egg yolk mixed with 1 tbsp water.", "icon": "bake" },
+      { "order": 9, "instruction": "Bake for 20-25 minutes until deep golden brown. Cool in pan for 5 minutes.", "icon": "bake", "duration": 25 }
+    ],
+    "tips": [
+      "Don't rush the butter - it must be fully incorporated",
+      "Cold dough = easier shaping, so don't skip the chill",
+      "The dough should be sticky but manageable",
+      "Makes incredible French toast the next day"
+    ]
+  },
+  {
+    "id": "baguette-recipe",
+    "breadId": "baguette",
+    "name": "French Baguette",
+    "prepTime": 30,
+    "proofTime": 240,
+    "bakeTime": 25,
+    "servings": 3,
+    "ingredients": [
+      { "name": "Bread flour", "amount": "500", "unit": "g" },
+      { "name": "Water", "amount": "350", "unit": "ml", "notes": "Room temperature" },
+      { "name": "Instant yeast", "amount": "5", "unit": "g" },
+      { "name": "Salt", "amount": "10", "unit": "g" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Mix flour, water, and yeast until just combined. Cover and rest 30 minutes (autolyse).", "icon": "mix", "duration": 30 },
+      { "order": 2, "instruction": "Add salt. Knead by hand or mixer for 8 minutes until smooth and elastic.", "icon": "knead", "duration": 8 },
+      { "order": 3, "instruction": "Place in oiled bowl. Every 30 minutes for 1.5 hours, fold dough onto itself from all sides.", "icon": "knead", "duration": 90 },
+      { "order": 4, "instruction": "Divide into 3 equal pieces. Pre-shape into loose logs. Rest 20 minutes.", "icon": "shape", "duration": 20 },
+      { "order": 5, "instruction": "Final shape: flatten each piece, fold in thirds, then roll to 35cm length with tapered ends.", "icon": "shape", "duration": 15 },
+      { "order": 6, "instruction": "Place on floured couche or towel, seam-side up. Cover and proof 45 minutes.", "icon": "proof", "duration": 45 },
+      { "order": 7, "instruction": "Preheat oven to 245°C (475°F) with a baking stone and steam pan.", "icon": "bake" },
+      { "order": 8, "instruction": "Flip baguettes onto peel, score with 3-4 diagonal slashes. Add ice cubes to steam pan.", "icon": "shape" },
+      { "order": 9, "instruction": "Bake with steam for 10 minutes, then remove steam pan. Bake 15 more minutes until dark golden.", "icon": "bake", "duration": 25 }
+    ],
+    "tips": [
+      "Steam in the first 10 minutes creates the crispy crust",
+      "Score at a 45-degree angle for proper 'ears'",
+      "Listen for the crackle when it comes out - that's a good sign",
+      "Eat within hours - these stale quickly but make great croutons"
+    ]
+  },
+  {
+    "id": "sourdough-recipe",
+    "breadId": "sourdough-boule",
+    "name": "Sourdough Boule",
+    "prepTime": 45,
+    "proofTime": 720,
+    "bakeTime": 45,
+    "servings": 1,
+    "ingredients": [
+      { "name": "Bread flour", "amount": "450", "unit": "g" },
+      { "name": "Whole wheat flour", "amount": "50", "unit": "g" },
+      { "name": "Water", "amount": "350", "unit": "ml", "notes": "Room temperature" },
+      { "name": "Active sourdough starter", "amount": "100", "unit": "g", "notes": "Fed and bubbly" },
+      { "name": "Salt", "amount": "10", "unit": "g" },
+      { "name": "Rice flour", "amount": "2", "unit": "tbsp", "notes": "For dusting banneton" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Mix flours and water. Cover and rest 30-60 minutes (autolyse).", "icon": "mix", "duration": 45 },
+      { "order": 2, "instruction": "Add starter and salt. Squeeze and fold to incorporate fully.", "icon": "mix", "duration": 5 },
+      { "order": 3, "instruction": "Every 30 minutes for 3 hours, perform stretch and folds (stretch dough up, fold over itself, rotate, repeat).", "icon": "knead", "duration": 180 },
+      { "order": 4, "instruction": "Cover and bulk ferment at room temperature 3-4 more hours until doubled and jiggly.", "icon": "proof", "duration": 240 },
+      { "order": 5, "instruction": "Gently turn dough onto floured surface. Pre-shape into a round. Rest 20 minutes.", "icon": "shape", "duration": 20 },
+      { "order": 6, "instruction": "Final shape: flip smooth-side down, fold edges to center, flip over and drag toward you to create tension.", "icon": "shape", "duration": 5 },
+      { "order": 7, "instruction": "Place seam-side up in rice-floured banneton. Cover and refrigerate 8-12 hours.", "icon": "proof", "duration": 480 },
+      { "order": 8, "instruction": "Preheat oven to 260°C (500°F) with Dutch oven inside for 45 minutes.", "icon": "bake", "duration": 45 },
+      { "order": 9, "instruction": "Turn dough into hot pot, score with razor, cover with lid. Bake 20 minutes.", "icon": "bake", "duration": 20 },
+      { "order": 10, "instruction": "Remove lid, reduce to 230°C (450°F). Bake 20-25 more minutes until deep mahogany.", "icon": "bake", "duration": 25 }
+    ],
+    "tips": [
+      "Your starter must be active and bubbly - do the float test",
+      "Temperature matters: 24-26°C is ideal for fermentation",
+      "The cold retard develops flavor - don't skip it",
+      "Let the bread cool completely before cutting (hardest part!)"
+    ]
+  },
+  {
+    "id": "pita-recipe",
+    "breadId": "pita",
+    "name": "Homemade Pita Bread",
+    "prepTime": 20,
+    "proofTime": 90,
+    "bakeTime": 5,
+    "servings": 8,
+    "ingredients": [
+      { "name": "All-purpose flour", "amount": "300", "unit": "g" },
+      { "name": "Whole wheat flour", "amount": "100", "unit": "g" },
+      { "name": "Warm water", "amount": "240", "unit": "ml" },
+      { "name": "Instant yeast", "amount": "5", "unit": "g" },
+      { "name": "Sugar", "amount": "1", "unit": "tsp" },
+      { "name": "Salt", "amount": "1", "unit": "tsp" },
+      { "name": "Olive oil", "amount": "2", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Combine warm water, sugar, and yeast. Let sit 5 minutes until foamy.", "icon": "mix", "duration": 5 },
+      { "order": 2, "instruction": "Mix flours and salt. Add yeast mixture and olive oil. Stir to form a shaggy dough.", "icon": "mix", "duration": 3 },
+      { "order": 3, "instruction": "Knead for 8 minutes until smooth and elastic.", "icon": "knead", "duration": 8 },
+      { "order": 4, "instruction": "Place in oiled bowl, cover, and let rise for 1 hour until doubled.", "icon": "proof", "duration": 60 },
+      { "order": 5, "instruction": "Divide dough into 8 pieces. Roll each into a ball, cover, and rest 15 minutes.", "icon": "shape", "duration": 15 },
+      { "order": 6, "instruction": "Preheat oven to maximum (260°C/500°F) with baking stone or inverted sheet pan.", "icon": "bake", "duration": 30 },
+      { "order": 7, "instruction": "Roll each ball into a 15cm circle, about 3mm thick. Don't make them too thin!", "icon": "shape", "duration": 10 },
+      { "order": 8, "instruction": "Place 2-3 pitas directly on hot stone. Bake 2-3 minutes until puffed and lightly golden.", "icon": "bake", "duration": 3 },
+      { "order": 9, "instruction": "Stack baked pitas under a towel to keep them soft. Serve warm or at room temperature.", "icon": "cool" }
+    ],
+    "tips": [
+      "Maximum oven heat is crucial for the puff",
+      "Roll evenly - thick spots won't puff properly",
+      "Don't open the oven door while baking",
+      "Store in plastic bags to keep soft for days"
+    ]
+  },
+  {
+    "id": "cornbread-recipe",
+    "breadId": "cornbread",
+    "name": "Cast Iron Cornbread",
+    "prepTime": 10,
+    "proofTime": 0,
+    "bakeTime": 25,
+    "servings": 8,
+    "ingredients": [
+      { "name": "Yellow cornmeal", "amount": "200", "unit": "g" },
+      { "name": "All-purpose flour", "amount": "65", "unit": "g" },
+      { "name": "Baking powder", "amount": "1", "unit": "tbsp" },
+      { "name": "Salt", "amount": "1", "unit": "tsp" },
+      { "name": "Buttermilk", "amount": "300", "unit": "ml" },
+      { "name": "Eggs", "amount": "2", "unit": "large" },
+      { "name": "Butter", "amount": "60", "unit": "g", "notes": "Plus 2 tbsp for pan" },
+      { "name": "Honey", "amount": "2", "unit": "tbsp", "notes": "Optional" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Place 10-inch cast iron skillet in oven. Preheat to 220°C (425°F) for 15 minutes.", "icon": "bake", "duration": 15 },
+      { "order": 2, "instruction": "Whisk cornmeal, flour, baking powder, and salt in a large bowl.", "icon": "mix", "duration": 2 },
+      { "order": 3, "instruction": "In another bowl, whisk buttermilk, eggs, melted butter, and honey if using.", "icon": "mix", "duration": 2 },
+      { "order": 4, "instruction": "Pour wet ingredients into dry. Stir until just combined - lumps are okay.", "icon": "mix", "duration": 1 },
+      { "order": 5, "instruction": "Carefully remove hot skillet. Add 2 tbsp butter, swirl to coat bottom and sides.", "icon": "bake" },
+      { "order": 6, "instruction": "Pour batter into sizzling butter. It should immediately start to set at the edges.", "icon": "shape" },
+      { "order": 7, "instruction": "Bake 20-25 minutes until golden on top and a toothpick comes out clean.", "icon": "bake", "duration": 25 },
+      { "order": 8, "instruction": "Let cool 5 minutes in pan. Slice into wedges and serve with butter.", "icon": "cool", "duration": 5 }
+    ],
+    "tips": [
+      "The hot pan creates the crispy bottom crust - don't skip it",
+      "True Southern cornbread has no sugar - add honey if you prefer sweet",
+      "Bacon drippings instead of butter is traditional",
+      "Great with chili, collard greens, or just butter and honey"
+    ]
+  },
+  {
+    "id": "pretzel-recipe",
+    "breadId": "pretzel",
+    "name": "Soft Bavarian Pretzels",
+    "prepTime": 30,
+    "proofTime": 60,
+    "bakeTime": 15,
+    "servings": 8,
+    "ingredients": [
+      { "name": "Bread flour", "amount": "400", "unit": "g" },
+      { "name": "Warm water", "amount": "240", "unit": "ml" },
+      { "name": "Instant yeast", "amount": "7", "unit": "g" },
+      { "name": "Brown sugar", "amount": "2", "unit": "tbsp" },
+      { "name": "Salt", "amount": "1", "unit": "tsp" },
+      { "name": "Butter, melted", "amount": "30", "unit": "g" },
+      { "name": "Baking soda", "amount": "60", "unit": "g", "notes": "For the bath" },
+      { "name": "Coarse salt", "amount": "2", "unit": "tbsp", "notes": "For topping" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Combine warm water, sugar, and yeast. Let sit 5 minutes until foamy.", "icon": "mix", "duration": 5 },
+      { "order": 2, "instruction": "Add flour, salt, and melted butter. Mix and knead for 8 minutes until smooth.", "icon": "knead", "duration": 8 },
+      { "order": 3, "instruction": "Cover and let rise in a warm place for 1 hour until doubled.", "icon": "proof", "duration": 60 },
+      { "order": 4, "instruction": "Divide dough into 8 pieces. Roll each into a 60cm rope.", "icon": "shape", "duration": 10 },
+      { "order": 5, "instruction": "Form pretzel shape: make a U, cross ends twice, fold down to bottom of U, press to attach.", "icon": "shape", "duration": 10 },
+      { "order": 6, "instruction": "Preheat oven to 230°C (450°F). Line baking sheets with parchment.", "icon": "bake" },
+      { "order": 7, "instruction": "Bring 2L water to boil with baking soda (careful - it will foam!). Reduce to simmer.", "icon": "mix" },
+      { "order": 8, "instruction": "Dip each pretzel in the soda bath for 30 seconds. Place on prepared sheets.", "icon": "shape", "duration": 5 },
+      { "order": 9, "instruction": "Sprinkle with coarse salt. Bake 12-15 minutes until deep brown.", "icon": "bake", "duration": 15 },
+      { "order": 10, "instruction": "Brush with melted butter while hot. Serve with mustard or cheese sauce.", "icon": "cool" }
+    ],
+    "tips": [
+      "The baking soda bath gives pretzels their distinctive flavor and color",
+      "Traditional German pretzels use food-grade lye instead of baking soda",
+      "Don't skip the salt - it's essential to the pretzel experience",
+      "Best eaten warm on the same day"
+    ]
+  }
+]
