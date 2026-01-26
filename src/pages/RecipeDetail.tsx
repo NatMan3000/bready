@@ -64,13 +64,29 @@ export function RecipeDetail() {
         </Link>
       </motion.div>
 
+      {/* Hero image */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        className="relative rounded-2xl overflow-hidden mb-8"
+      >
+        <img
+          src={`${import.meta.env.BASE_URL}images/${recipe.breadId}.jpg`}
+          alt={recipe.name}
+          className="w-full h-64 object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+        <div className="absolute bottom-4 left-4 right-4">
+          <h1 className="text-3xl font-bold text-white drop-shadow-lg">{recipe.name}</h1>
+        </div>
+      </motion.div>
+
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         className="mb-8"
       >
-        <h1 className="text-4xl font-bold text-amber-900 mb-2">{recipe.name}</h1>
         {bread && (
           <Link
             to={`/breads/${bread.id}`}

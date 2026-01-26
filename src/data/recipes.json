@@ -416,5 +416,114 @@
       "Don't skip the salt - it's essential to the pretzel experience",
       "Best eaten warm on the same day"
     ]
+  },
+  {
+    "id": "sourdough-rye-recipe",
+    "breadId": "sourdough-rye",
+    "name": "Dark Rye Sourdough",
+    "prepTime": 30,
+    "proofTime": 600,
+    "bakeTime": 50,
+    "servings": 1,
+    "ingredients": [
+      { "name": "Dark rye flour", "amount": "300", "unit": "g" },
+      { "name": "Bread flour", "amount": "200", "unit": "g" },
+      { "name": "Rye sourdough starter", "amount": "150", "unit": "g", "notes": "Active and bubbly" },
+      { "name": "Water", "amount": "350", "unit": "ml", "notes": "Warm" },
+      { "name": "Salt", "amount": "10", "unit": "g" },
+      { "name": "Caraway seeds", "amount": "1", "unit": "tbsp", "notes": "Optional" },
+      { "name": "Molasses", "amount": "2", "unit": "tbsp", "notes": "For color and flavor" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Mix both flours with warm water. Cover and rest for 30 minutes (autolyse).", "icon": "mix", "duration": 30 },
+      { "order": 2, "instruction": "Add starter, salt, molasses, and caraway seeds. Mix until fully combined.", "icon": "mix", "duration": 5 },
+      { "order": 3, "instruction": "Knead for 5 minutes. Rye dough will be sticky and won't develop gluten like wheat - this is normal.", "icon": "knead", "duration": 5 },
+      { "order": 4, "instruction": "Place in an oiled bowl. Cover and ferment at room temperature for 4-5 hours until visibly risen.", "icon": "proof", "duration": 270 },
+      { "order": 5, "instruction": "Turn dough onto floured surface. Shape into a tight oval or round. The dough will be tacky.", "icon": "shape", "duration": 5 },
+      { "order": 6, "instruction": "Place in a floured banneton or bowl lined with floured cloth, seam-side up.", "icon": "shape" },
+      { "order": 7, "instruction": "Cover and refrigerate overnight, or proof at room temperature for 2-3 hours.", "icon": "proof", "duration": 180 },
+      { "order": 8, "instruction": "Preheat oven to 230°C (450°F) with Dutch oven inside for 45 minutes.", "icon": "bake", "duration": 45 },
+      { "order": 9, "instruction": "Turn dough into hot pot. Score with a single line or cross. Cover with lid.", "icon": "shape" },
+      { "order": 10, "instruction": "Bake covered for 30 minutes, then uncovered for 20 minutes until very dark.", "icon": "bake", "duration": 50 }
+    ],
+    "tips": [
+      "Rye flour has less gluten - the dough will never feel like wheat dough",
+      "A darker crust is normal and desirable for rye bread",
+      "Wait 24 hours before slicing - rye bread needs time to set",
+      "This bread keeps well for a week wrapped in cloth"
+    ]
+  },
+  {
+    "id": "english-muffin-recipe",
+    "breadId": "english-muffin",
+    "name": "Classic English Muffins",
+    "prepTime": 20,
+    "proofTime": 90,
+    "bakeTime": 12,
+    "servings": 12,
+    "ingredients": [
+      { "name": "All-purpose flour", "amount": "500", "unit": "g" },
+      { "name": "Warm milk", "amount": "300", "unit": "ml" },
+      { "name": "Butter, melted", "amount": "30", "unit": "g" },
+      { "name": "Instant yeast", "amount": "7", "unit": "g" },
+      { "name": "Sugar", "amount": "1", "unit": "tbsp" },
+      { "name": "Salt", "amount": "1.5", "unit": "tsp" },
+      { "name": "Cornmeal", "amount": "60", "unit": "g", "notes": "For dusting" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Warm milk to about 40°C. Stir in sugar and yeast. Let sit 5 minutes until foamy.", "icon": "mix", "duration": 5 },
+      { "order": 2, "instruction": "Add melted butter, salt, and flour. Mix until a soft, slightly sticky dough forms.", "icon": "mix", "duration": 5 },
+      { "order": 3, "instruction": "Knead for 8 minutes until smooth and elastic.", "icon": "knead", "duration": 8 },
+      { "order": 4, "instruction": "Place in oiled bowl, cover, and let rise for 1 hour until doubled.", "icon": "proof", "duration": 60 },
+      { "order": 5, "instruction": "Generously dust work surface with cornmeal. Roll dough to 1cm thickness.", "icon": "shape", "duration": 5 },
+      { "order": 6, "instruction": "Cut rounds with an 8cm cutter. Re-roll scraps once. Dust tops with cornmeal.", "icon": "shape", "duration": 10 },
+      { "order": 7, "instruction": "Place on cornmeal-dusted tray. Cover and let rise 30 minutes until puffy.", "icon": "proof", "duration": 30 },
+      { "order": 8, "instruction": "Heat a dry skillet or griddle over medium-low heat.", "icon": "bake" },
+      { "order": 9, "instruction": "Cook muffins 5-6 minutes per side until golden and cooked through. They should sound hollow.", "icon": "bake", "duration": 12 },
+      { "order": 10, "instruction": "Cool on wire rack. Split with a fork (not a knife!) to preserve the nooks and crannies.", "icon": "cool" }
+    ],
+    "tips": [
+      "Low and slow is key - too hot and they'll burn outside while raw inside",
+      "Always split with a fork to create the signature texture",
+      "The cornmeal prevents sticking and adds texture",
+      "Freeze well - toast straight from frozen"
+    ]
+  },
+  {
+    "id": "pain-de-mie-recipe",
+    "breadId": "pain-de-mie",
+    "name": "Pain de Mie (Pullman Loaf)",
+    "prepTime": 25,
+    "proofTime": 120,
+    "bakeTime": 35,
+    "servings": 16,
+    "ingredients": [
+      { "name": "Bread flour", "amount": "500", "unit": "g" },
+      { "name": "Whole milk", "amount": "320", "unit": "ml", "notes": "Warm" },
+      { "name": "Butter, softened", "amount": "45", "unit": "g" },
+      { "name": "Sugar", "amount": "25", "unit": "g" },
+      { "name": "Salt", "amount": "10", "unit": "g" },
+      { "name": "Instant yeast", "amount": "7", "unit": "g" },
+      { "name": "Egg", "amount": "1", "unit": "large" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Combine flour, sugar, salt, and yeast in a large bowl or stand mixer.", "icon": "mix", "duration": 2 },
+      { "order": 2, "instruction": "Add warm milk and egg. Mix until a shaggy dough forms.", "icon": "mix", "duration": 3 },
+      { "order": 3, "instruction": "Knead for 8 minutes until smooth. Add softened butter in pieces, knead until fully incorporated.", "icon": "knead", "duration": 12 },
+      { "order": 4, "instruction": "The dough should be soft, smooth, and slightly tacky. Place in oiled bowl.", "icon": "proof" },
+      { "order": 5, "instruction": "Cover and let rise for 1 hour until doubled.", "icon": "proof", "duration": 60 },
+      { "order": 6, "instruction": "Grease a 13x4 inch Pullman pan (or 9x5 loaf pan). Punch down dough.", "icon": "shape" },
+      { "order": 7, "instruction": "Roll dough into rectangle. Roll up tightly from short end. Place seam-down in pan.", "icon": "shape", "duration": 5 },
+      { "order": 8, "instruction": "Cover (slide on Pullman lid partially) and let rise until dough reaches 2cm below rim, about 1 hour.", "icon": "proof", "duration": 60 },
+      { "order": 9, "instruction": "Preheat oven to 190°C (375°F). Slide Pullman lid fully closed, or tent with foil.", "icon": "bake" },
+      { "order": 10, "instruction": "Bake for 35 minutes. Remove lid for last 5 minutes if you want a golden top.", "icon": "bake", "duration": 35 },
+      { "order": 11, "instruction": "Remove from pan immediately. Cool completely on wire rack before slicing.", "icon": "cool", "duration": 30 }
+    ],
+    "tips": [
+      "A Pullman pan with lid creates the signature square shape",
+      "No Pullman pan? Use a regular loaf pan and tent with foil",
+      "The fine crumb makes this ideal for sandwiches and French toast",
+      "Stays fresh for days due to the milk and butter enrichment"
+    ]
   }
 ]

@@ -88,7 +88,7 @@ export function Breads() {
               {/* Bread image */}
               <div className="h-40 bg-gradient-to-br from-amber-100 to-amber-200 overflow-hidden">
                 <img
-                  src={`${import.meta.env.BASE_URL}images/${bread.id}.png`}
+                  src={`${import.meta.env.BASE_URL}images/${bread.id}.jpg`}
                   alt={bread.name}
                   className="w-full h-full object-cover"
                 />

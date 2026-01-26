@@ -47,7 +47,7 @@ export function BreadDetail() {
         className="relative rounded-2xl overflow-hidden mb-8"
       >
         <img
-          src={`${import.meta.env.BASE_URL}images/${bread.id}.png`}
+          src={`${import.meta.env.BASE_URL}images/${bread.id}.jpg`}
           alt={bread.name}
           className="w-full h-64 object-cover"
         />

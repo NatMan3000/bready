@@ -51,9 +51,13 @@ export function Recipes() {
               to={`/recipes/${recipe.id}`}
               className="flex items-center gap-4 bg-white rounded-xl shadow-md p-4 hover:shadow-lg transition-all hover:-translate-x-1 border border-amber-100"
             >
-              {/* Image placeholder */}
-              <div className="w-20 h-20 bg-gradient-to-br from-amber-100 to-amber-200 rounded-lg flex items-center justify-center flex-shrink-0">
-                <span className="text-3xl">🥖</span>
+              {/* Bread image */}
+              <div className="w-20 h-20 bg-gradient-to-br from-amber-100 to-amber-200 rounded-lg overflow-hidden flex-shrink-0">
+                <img
+                  src={`${import.meta.env.BASE_URL}images/${recipe.breadId}.jpg`}
+                  alt={recipe.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               <div className="flex-grow">
