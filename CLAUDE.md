@@ -16,6 +16,13 @@ A visually rich Progressive Web App for browsing bread varieties and recipes. Pe
 
 ---
 
+## Project History
+
+@TIMELINE.md
+@memory/open-threads.md
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
@@ -72,15 +79,6 @@ src/
 ├── pages/          # Route pages
 └── types/          # TypeScript types
 ```
-
----
-
-## Timeline
-
-| Date | Event |
-|------|-------|
-| 2026-01-25 | Project created, Phase 1 setup complete |
-| 2026-01-25 | Deployed to GitHub Pages, flour particles refined |
 
 ---
 
