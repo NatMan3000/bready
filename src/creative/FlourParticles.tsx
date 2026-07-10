@@ -20,10 +20,12 @@ export function FlourParticles({ density = 60, className = '' }: FlourParticlesP
   const p5InstanceRef = useRef<p5 | null>(null)
 
   useEffect(() => {
+    // Ambient motion is decorative - skip it entirely when the user asks for less motion
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
     if (!containerRef.current) return
 
     const sketch = (p: p5) => {
-      let particles: Particle[] = []
+      const particles: Particle[] = []
       let mouseX = 0
       let mouseY = 0
 

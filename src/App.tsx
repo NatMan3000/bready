@@ -5,6 +5,7 @@ import { Breads } from './pages/Breads'
 import { BreadDetail } from './pages/BreadDetail'
 import { Recipes } from './pages/Recipes'
 import { RecipeDetail } from './pages/RecipeDetail'
+import { NotFound } from './pages/NotFound'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="breads/:id" element={<BreadDetail />} />
           <Route path="recipes" element={<Recipes />} />
           <Route path="recipes/:id" element={<RecipeDetail />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>

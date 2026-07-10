@@ -38,13 +38,28 @@ A visually rich Progressive Web App for browsing bread varieties and recipes. Pe
 
 ---
 
+## Design Context
+
+`PRODUCT.md` (users, tone, principles) and `DESIGN.md` (palette, type, motion, sound, localStorage keys) at project root - read both before UI work.
+
 ## Creative Features
 
-1. **Dough Kneading Simulator** - p5.js soft-body blob on home page
-2. **Flour Particles** - Subtle floating background particles
-3. **Framer Motion** - Page transitions, micro-interactions
-4. **Lottie Icons** - Animated icons for recipe steps
-5. **Generative Backgrounds** - Unique pattern per bread category
+1. **Dough Kneading Simulator** - canvas soft-body blob on home page (knead/roll/cut/bake modes)
+2. **Flour Particles** - subtle floating background particles (p5, lazy-loaded, disabled under reduced motion)
+3. **Framer Motion** - page transitions, micro-interactions
+4. **Lottie Icons** - animated icons for recipe steps (lazy-loaded, emoji fallback - no lottie JSONs shipped yet)
+5. **Bake celebrations** - flour-burst confetti + WebAudio fanfare when all steps complete; global bake counter
+6. **Sound cues** - tiny WebAudio synth (pop/chime/fanfare), mute toggle in nav, no audio assets
+
+## Kitchen Features (2026-07-10)
+
+- **Step timers** - per-step countdowns (wall-clock `endsAt`, survive reload), chime + vibration on finish, floating soonest-timer pill
+- **Persistence** - step progress, ingredient check-offs, timers, scale, favourites all in localStorage (keys in DESIGN.md)
+- **Recipe scaling** - ½× / 1× / 1½× / 2× with fraction-friendly formatting
+- **Wake lock** - "Keep screen on" toggle on recipe pages
+- **Favourites + search** - hearts on breads, favourites filter/sort, text search on Breads page
+- **Bread of the Day** - date-seeded pick on Home + "Surprise me" random jump
+- **Typography** - Fraunces Variable (self-hosted @fontsource) for headings via `font-display` utility
 
 ---
 
@@ -82,4 +97,4 @@ src/
 
 ---
 
-*Last updated: 2026-01-25*
+*Last updated: 2026-07-10*

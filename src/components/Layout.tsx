@@ -1,7 +1,13 @@
+import { lazy, Suspense, useState } from 'react'
 import { Outlet, NavLink } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useLocation } from 'react-router-dom'
-import { FlourParticles } from '../creative/FlourParticles'
+import { isMuted, setMuted } from '../lib/sound'
+
+// p5 is ~900KB minified - keep the ambient particles out of the critical chunk
+const FlourParticles = lazy(() =>
+  import('../creative/FlourParticles').then(m => ({ default: m.FlourParticles }))
+)
 
 const navItems = [
   { to: '/', label: 'Home' },
@@ -11,6 +17,13 @@ const navItems = [
 
 export function Layout() {
   const location = useLocation()
+  const [muted, setMutedState] = useState(isMuted())
+
+  const toggleMuted = () => {
+    const next = !muted
+    setMuted(next)
+    setMutedState(next)
+  }
 
   return (
     <div className="min-h-screen flex flex-col relative">
@@ -18,7 +31,9 @@ export function Layout() {
       <div className="fixed inset-0 bg-gradient-to-b from-amber-50 to-orange-50 z-0" />
 
       {/* Flour particles - above gradient, below content */}
-      <FlourParticles density={70} />
+      <Suspense fallback={null}>
+        <FlourParticles density={70} />
+      </Suspense>
 
       {/* Navigation */}
       <nav className="sticky top-0 z-50 backdrop-blur-md bg-amber-50/80 border-b border-amber-200">
@@ -27,7 +42,7 @@ export function Layout() {
             {/* Logo */}
             <NavLink to="/" className="flex items-center gap-1 sm:gap-2 shrink-0">
               <span className="text-2xl sm:text-3xl">🍞</span>
-              <span className="text-lg sm:text-xl font-bold text-amber-900">Bready</span>
+              <span className="font-display text-lg sm:text-xl font-bold text-amber-900">Bready</span>
             </NavLink>
 
             {/* Nav links - compact on mobile */}
@@ -47,6 +62,17 @@ export function Layout() {
                   {item.label}
                 </NavLink>
               ))}
+
+              {/* Mute toggle - persisted to localStorage via lib/sound */}
+              <button
+                type="button"
+                onClick={toggleMuted}
+                aria-label={muted ? 'Unmute sounds' : 'Mute sounds'}
+                aria-pressed={muted}
+                className="w-11 h-11 rounded-full flex items-center justify-center text-xl text-amber-800 hover:bg-amber-100 transition-all"
+              >
+                <span aria-hidden>{muted ? '🔇' : '🔊'}</span>
+              </button>
             </div>
           </div>
         </div>

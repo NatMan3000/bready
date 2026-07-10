@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/fraunces": "^5.2.9",
     "@tailwindcss/vite": "^4.1.18",
     "framer-motion": "^12.29.0",
     "lottie-react": "^2.4.1",

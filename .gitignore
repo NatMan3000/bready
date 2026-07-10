@@ -17,6 +17,9 @@ dev-dist
 public/images/Resized
 public/images/Small
 
+# Claude auto-memory junction (symlink, lives outside the repo)
+/memory
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
