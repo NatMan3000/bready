@@ -77,3 +77,30 @@ export function playFanfare() {
   seq.forEach((f, i) => note(f, i * 0.13, 0.5, 0.11, 'triangle'))
   note(1318.51, 0.55, 0.9, 0.08)
 }
+
+/** Soft low wobble - hands squishing into the dough. Throttle callers to ~1 per 150ms. */
+export function playSquish() {
+  if (isMuted()) return
+  const c = getCtx()
+  if (!c) return
+  const t0 = c.currentTime
+  const osc = c.createOscillator()
+  const g = c.createGain()
+  osc.type = 'sine'
+  // A little pitch dive gives it the wet, yielding feel of dough folding over.
+  osc.frequency.setValueAtTime(160 + Math.random() * 30, t0)
+  osc.frequency.exponentialRampToValueAtTime(68, t0 + 0.13)
+  g.gain.setValueAtTime(0.0001, t0)
+  g.gain.exponentialRampToValueAtTime(0.1, t0 + 0.02)
+  g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.15)
+  osc.connect(g).connect(c.destination)
+  osc.start(t0)
+  osc.stop(t0 + 0.17)
+}
+
+/** Single bright note - the loaf just hit perfect */
+export function playDing() {
+  if (isMuted()) return
+  note(1318.51, 0, 0.6, 0.1)
+  note(1975.53, 0.01, 0.35, 0.04)
+}
