@@ -18,8 +18,7 @@ A visually rich Progressive Web App for browsing bread varieties and recipes. Pe
 
 ## Project History
 
-@TIMELINE.md
-@memory/open-threads.md
+`TIMELINE.md`: grep on demand; `open-threads.md`: surfaced at session start
 
 ---
 
